@@ -171,7 +171,7 @@ $$= \frac{50.3 \times 10^{-6}}{174.9 \times 10^{-6}} \approx 0.287$$
 > This makes Stage 2's input impedance appear **in parallel** with R1, reducing the effective impedance at the node.
 > As a result, the HPF cutoff frequency shifts upward and the LPF cutoff shifts downward, **widening the effective bandwidth** beyond the designed 9 kHz.
 > Since $Q = f_0 / BW$, a wider bandwidth means a **lower Q**.
-> This is called the **loading effect** — it is unique to passive RC stages and cannot be avoided without an op-amp buffer between the stages.
+> This is called the **loading effect** — it is unique to passive RC stages .
 
 ---
 
