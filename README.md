@@ -270,7 +270,7 @@ $$\zeta = \frac{1}{2 \times 0.35} \approx 1.43 \quad \text{(overdamped)}$$
 > **Why does RLC have higher Q than RC-RC for the same bandwidth?**
 > In RLC, the inductor L and capacitor C **exchange energy** back and forth at $\omega_0$ — the inductor stores energy as a magnetic field and the capacitor stores it as an electric field.
 > Only the resistor R dissipates energy. So $Q \propto \frac{\text{energy stored}}{\text{energy lost}}$ is determined by how small R is.
-> In RC-RC, **resistors are present in both stages** and continuously dissipate energy with no energy exchange mechanism, which is why Q cannot exceed ~0.5 without using active components like op-amps.
+> In RC-RC, **resistors are present in both stages** and continuously dissipate energy with no energy exchange mechanism .
 > Additionally, the RC-RC design suffers from the **loading effect** (see above), which further reduces Q below the theoretical value.
 
 ---
